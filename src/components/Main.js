@@ -1,7 +1,4 @@
 import Link from 'next/link';
-import { ReactElement } from 'react';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Main = () => (
     <div>
