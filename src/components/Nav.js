@@ -1,6 +1,4 @@
 import Link from "next/link";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 
 const Nav = () => (
@@ -38,6 +36,21 @@ const Nav = () => (
 
     </div>
     
+    <main>
+        <div className="slider">
+
+        </div>
+        <div className="menu-container flex justify-center">
+        <img className="menu h-screen" src="/new-menu.jpg"></img>
+        </div>
+
+        <div className="order-ahead-container h-64">
+        <img className="order-ahead-img" src="/below-image.png"></img>
+        </div>
+    
+    </main>
+
+
     </div>
 
 );
