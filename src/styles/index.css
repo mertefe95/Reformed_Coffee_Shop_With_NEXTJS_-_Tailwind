@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slider {
+    height: 75vh;
+    background: url('../bopomofo-background-images/1-background.jpg') no-repeat center center/cover;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background: url('../bopomofo-background-images/2-background.jpg') no-repeat center center/cover;
+    }
+    25%{
+        background: url('../bopomofo-background-images/3-background.jpg') no-repeat center center/cover;
+    }
+    25%{
+        background: url('../bopomofo-background-images/4-background.JPG') no-repeat center center/cover;
+    }
+    25%{
+        background: url('../bopomofo-background-images/4-background.JPG') no-repeat center center/cover;
+    }
+}

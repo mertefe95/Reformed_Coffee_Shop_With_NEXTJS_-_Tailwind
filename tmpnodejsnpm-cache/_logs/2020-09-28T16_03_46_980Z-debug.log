@@ -1,0 +1,333 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'tailwindcss',
+1 verbose cli   'postcss-preset-env',
+1 verbose cli   '-D'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.12.0
+4 verbose npm-session fded8d7cb57e3acc
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/postcss-preset-env 698ms
+8 http fetch GET 200 https://registry.npmjs.org/tailwindcss 799ms
+9 http fetch GET 200 https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-6.7.0.tgz 111ms
+10 silly pacote tag manifest for postcss-preset-env@latest fetched in 818ms
+11 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-1.8.10.tgz 1055ms
+12 silly pacote tag manifest for tailwindcss@latest fetched in 1875ms
+13 timing stage:loadCurrentTree Completed in 2921ms
+14 silly install loadIdealTree
+15 silly install cloneCurrentTreeToIdealTree
+16 timing stage:loadIdealTree:cloneCurrentTree Completed in 9ms
+17 silly install loadShrinkwrap
+18 timing stage:loadIdealTree:loadShrinkwrap Completed in 536ms
+19 silly install loadAllDepsIntoIdealTree
+20 silly resolveWithNewModule postcss-preset-env@6.7.0 checking installable status
+21 silly resolveWithNewModule tailwindcss@1.8.10 checking installable status
+22 http fetch GET 200 https://registry.npmjs.org/autoprefixer 201ms
+23 http fetch GET 200 https://registry.npmjs.org/postcss-attribute-case-insensitive 468ms
+24 http fetch GET 200 https://registry.npmjs.org/cssdb 485ms
+25 http fetch GET 200 https://registry.npmjs.org/postcss-color-functional-notation 492ms
+26 http fetch GET 200 https://registry.npmjs.org/postcss-color-hex-alpha 496ms
+27 http fetch GET 200 https://registry.npmjs.org/css-blank-pseudo 513ms
+28 http fetch GET 200 https://registry.npmjs.org/postcss-color-mod-function 511ms
+29 http fetch GET 200 https://registry.npmjs.org/css-has-pseudo 517ms
+30 http fetch GET 200 https://registry.npmjs.org/cssdb/-/cssdb-4.4.0.tgz 293ms
+31 http fetch GET 200 https://registry.npmjs.org/postcss-color-gray 781ms
+32 http fetch GET 200 https://registry.npmjs.org/css-prefers-color-scheme 784ms
+33 http fetch GET 200 https://registry.npmjs.org/postcss-attribute-case-insensitive/-/postcss-attribute-case-insensitive-4.0.2.tgz 317ms
+34 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-9.8.6.tgz 585ms
+35 http fetch GET 200 https://registry.npmjs.org/css-has-pseudo/-/css-has-pseudo-0.10.0.tgz 276ms
+36 http fetch GET 200 https://registry.npmjs.org/postcss-color-hex-alpha/-/postcss-color-hex-alpha-5.0.3.tgz 297ms
+37 http fetch GET 200 https://registry.npmjs.org/css-blank-pseudo/-/css-blank-pseudo-0.1.4.tgz 283ms
+38 http fetch GET 200 https://registry.npmjs.org/postcss-color-mod-function/-/postcss-color-mod-function-3.0.3.tgz 281ms
+39 silly pacote range manifest for cssdb@^4.4.0 fetched in 797ms
+40 silly resolveWithNewModule cssdb@4.4.0 checking installable status
+41 http fetch GET 200 https://registry.npmjs.org/postcss-color-functional-notation/-/postcss-color-functional-notation-2.0.1.tgz 315ms
+42 silly pacote range manifest for postcss-attribute-case-insensitive@^4.0.1 fetched in 811ms
+43 silly resolveWithNewModule postcss-attribute-case-insensitive@4.0.2 checking installable status
+44 silly pacote range manifest for autoprefixer@^9.6.1 fetched in 814ms
+45 silly resolveWithNewModule autoprefixer@9.8.6 checking installable status
+46 silly pacote range manifest for css-has-pseudo@^0.10.0 fetched in 816ms
+47 silly resolveWithNewModule css-has-pseudo@0.10.0 checking installable status
+48 silly pacote range manifest for postcss-color-hex-alpha@^5.0.3 fetched in 817ms
+49 silly resolveWithNewModule postcss-color-hex-alpha@5.0.3 checking installable status
+50 silly pacote range manifest for css-blank-pseudo@^0.1.4 fetched in 819ms
+51 silly resolveWithNewModule css-blank-pseudo@0.1.4 checking installable status
+52 silly pacote range manifest for postcss-color-mod-function@^3.0.3 fetched in 820ms
+53 silly resolveWithNewModule postcss-color-mod-function@3.0.3 checking installable status
+54 silly pacote range manifest for postcss-color-functional-notation@^2.0.1 fetched in 823ms
+55 silly resolveWithNewModule postcss-color-functional-notation@2.0.1 checking installable status
+56 http fetch GET 200 https://registry.npmjs.org/postcss-color-gray/-/postcss-color-gray-5.0.0.tgz 78ms
+57 silly pacote range manifest for postcss-color-gray@^5.0.0 fetched in 863ms
+58 silly resolveWithNewModule postcss-color-gray@5.0.0 checking installable status
+59 http fetch GET 200 https://registry.npmjs.org/postcss-color-rebeccapurple 85ms
+60 http fetch GET 200 https://registry.npmjs.org/css-prefers-color-scheme/-/css-prefers-color-scheme-3.1.1.tgz 100ms
+61 silly pacote range manifest for css-prefers-color-scheme@^3.1.1 fetched in 889ms
+62 silly resolveWithNewModule css-prefers-color-scheme@3.1.1 checking installable status
+63 http fetch GET 200 https://registry.npmjs.org/postcss-dir-pseudo-class 109ms
+64 http fetch GET 200 https://registry.npmjs.org/postcss-custom-selectors 112ms
+65 http fetch GET 200 https://registry.npmjs.org/postcss-custom-properties 121ms
+66 http fetch GET 200 https://registry.npmjs.org/postcss-custom-media 131ms
+67 http fetch GET 200 https://registry.npmjs.org/postcss-focus-visible 121ms
+68 http fetch GET 200 https://registry.npmjs.org/postcss-env-function 125ms
+69 http fetch GET 200 https://registry.npmjs.org/postcss-double-position-gradients 131ms
+70 http fetch GET 200 https://registry.npmjs.org/postcss-color-rebeccapurple/-/postcss-color-rebeccapurple-4.0.1.tgz 78ms
+71 silly pacote range manifest for postcss-color-rebeccapurple@^4.0.1 fetched in 172ms
+72 silly resolveWithNewModule postcss-color-rebeccapurple@4.0.1 checking installable status
+73 http fetch GET 200 https://registry.npmjs.org/postcss-focus-within 107ms
+74 http fetch GET 200 https://registry.npmjs.org/postcss-font-variant 91ms
+75 http fetch GET 200 https://registry.npmjs.org/postcss-custom-selectors/-/postcss-custom-selectors-5.1.2.tgz 100ms
+76 silly pacote range manifest for postcss-custom-selectors@^5.1.2 fetched in 219ms
+77 silly resolveWithNewModule postcss-custom-selectors@5.1.2 checking installable status
+78 http fetch GET 200 https://registry.npmjs.org/postcss-custom-properties/-/postcss-custom-properties-8.0.11.tgz 132ms
+79 http fetch GET 200 https://registry.npmjs.org/postcss-focus-visible/-/postcss-focus-visible-4.0.0.tgz 123ms
+80 http fetch GET 200 https://registry.npmjs.org/postcss-dir-pseudo-class/-/postcss-dir-pseudo-class-5.0.0.tgz 140ms
+81 http fetch GET 200 https://registry.npmjs.org/postcss-custom-media/-/postcss-custom-media-7.0.8.tgz 129ms
+82 http fetch GET 200 https://registry.npmjs.org/postcss-env-function/-/postcss-env-function-2.0.2.tgz 125ms
+83 silly pacote range manifest for postcss-focus-visible@^4.0.0 fetched in 256ms
+84 silly resolveWithNewModule postcss-focus-visible@4.0.0 checking installable status
+85 silly pacote range manifest for postcss-custom-properties@^8.0.11 fetched in 269ms
+86 silly resolveWithNewModule postcss-custom-properties@8.0.11 checking installable status
+87 silly pacote range manifest for postcss-dir-pseudo-class@^5.0.0 fetched in 265ms
+88 silly resolveWithNewModule postcss-dir-pseudo-class@5.0.0 checking installable status
+89 silly pacote range manifest for postcss-custom-media@^7.0.8 fetched in 281ms
+90 silly resolveWithNewModule postcss-custom-media@7.0.8 checking installable status
+91 silly pacote range manifest for postcss-env-function@^2.0.2 fetched in 271ms
+92 silly resolveWithNewModule postcss-env-function@2.0.2 checking installable status
+93 http fetch GET 200 https://registry.npmjs.org/postcss-double-position-gradients/-/postcss-double-position-gradients-1.0.0.tgz 144ms
+94 http fetch GET 200 https://registry.npmjs.org/postcss-font-variant/-/postcss-font-variant-4.0.0.tgz 115ms
+95 http fetch GET 200 https://registry.npmjs.org/postcss-gap-properties 127ms
+96 http fetch GET 200 https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-3.0.0.tgz 124ms
+97 silly pacote range manifest for postcss-double-position-gradients@^1.0.0 fetched in 284ms
+98 silly resolveWithNewModule postcss-double-position-gradients@1.0.0 checking installable status
+99 silly pacote range manifest for postcss-font-variant@^4.0.0 fetched in 215ms
+100 silly resolveWithNewModule postcss-font-variant@4.0.0 checking installable status
+101 silly pacote range manifest for postcss-focus-within@^3.0.0 fetched in 243ms
+102 silly resolveWithNewModule postcss-focus-within@3.0.0 checking installable status
+103 http fetch GET 200 https://registry.npmjs.org/postcss-image-set-function 107ms
+104 http fetch GET 200 https://registry.npmjs.org/postcss-initial 93ms
+105 http fetch GET 200 https://registry.npmjs.org/postcss-media-minmax 87ms
+106 http fetch GET 200 https://registry.npmjs.org/postcss-lab-function 119ms
+107 http fetch GET 200 https://registry.npmjs.org/postcss-overflow-shorthand 99ms
+108 http fetch GET 200 https://registry.npmjs.org/postcss-logical 119ms
+109 http fetch GET 200 https://registry.npmjs.org/postcss-gap-properties/-/postcss-gap-properties-2.0.0.tgz 113ms
+110 http fetch GET 200 https://registry.npmjs.org/postcss-nesting 118ms
+111 http fetch GET 200 https://registry.npmjs.org/postcss-place 105ms
+112 http fetch GET 200 https://registry.npmjs.org/postcss-page-break 113ms
+113 silly pacote range manifest for postcss-gap-properties@^2.0.0 fetched in 250ms
+114 silly resolveWithNewModule postcss-gap-properties@2.0.0 checking installable status
+115 http fetch GET 200 https://registry.npmjs.org/postcss-image-set-function/-/postcss-image-set-function-3.0.1.tgz 87ms
+116 silly pacote range manifest for postcss-image-set-function@^3.0.1 fetched in 200ms
+117 silly resolveWithNewModule postcss-image-set-function@3.0.1 checking installable status
+118 http fetch GET 200 https://registry.npmjs.org/postcss-media-minmax/-/postcss-media-minmax-4.0.0.tgz 109ms
+119 silly pacote range manifest for postcss-media-minmax@^4.0.0 fetched in 202ms
+120 silly resolveWithNewModule postcss-media-minmax@4.0.0 checking installable status
+121 http fetch GET 200 https://registry.npmjs.org/postcss-initial/-/postcss-initial-3.0.2.tgz 136ms
+122 http fetch GET 200 https://registry.npmjs.org/postcss-lab-function/-/postcss-lab-function-2.0.1.tgz 110ms
+123 silly pacote range manifest for postcss-initial@^3.0.0 fetched in 235ms
+124 silly resolveWithNewModule postcss-initial@3.0.2 checking installable status
+125 silly pacote range manifest for postcss-lab-function@^2.0.1 fetched in 238ms
+126 silly resolveWithNewModule postcss-lab-function@2.0.1 checking installable status
+127 http fetch GET 200 https://registry.npmjs.org/postcss-overflow-shorthand/-/postcss-overflow-shorthand-2.0.0.tgz 121ms
+128 silly pacote range manifest for postcss-overflow-shorthand@^2.0.0 fetched in 229ms
+129 silly resolveWithNewModule postcss-overflow-shorthand@2.0.0 checking installable status
+130 http fetch GET 200 https://registry.npmjs.org/postcss-logical/-/postcss-logical-3.0.0.tgz 128ms
+131 http fetch GET 200 https://registry.npmjs.org/postcss-place/-/postcss-place-4.0.1.tgz 121ms
+132 silly pacote range manifest for postcss-logical@^3.0.0 fetched in 261ms
+133 silly resolveWithNewModule postcss-logical@3.0.0 checking installable status
+134 silly pacote range manifest for postcss-place@^4.0.1 fetched in 240ms
+135 silly resolveWithNewModule postcss-place@4.0.1 checking installable status
+136 http fetch GET 200 https://registry.npmjs.org/postcss-nesting/-/postcss-nesting-7.0.1.tgz 364ms
+137 http fetch GET 200 https://registry.npmjs.org/postcss-replace-overflow-wrap 342ms
+138 http fetch GET 200 https://registry.npmjs.org/postcss-page-break/-/postcss-page-break-2.0.0.tgz 360ms
+139 http fetch GET 200 https://registry.npmjs.org/postcss-pseudo-class-any-link 360ms
+140 http fetch GET 200 https://registry.npmjs.org/postcss-selector-not 266ms
+141 http fetch GET 200 https://registry.npmjs.org/postcss-selector-matches 291ms
+142 silly pacote range manifest for postcss-nesting@^7.0.0 fetched in 495ms
+143 silly resolveWithNewModule postcss-nesting@7.0.1 checking installable status
+144 silly pacote range manifest for postcss-page-break@^2.0.0 fetched in 485ms
+145 silly resolveWithNewModule postcss-page-break@2.0.0 checking installable status
+146 http fetch GET 200 https://registry.npmjs.org/postcss-replace-overflow-wrap/-/postcss-replace-overflow-wrap-3.0.0.tgz 92ms
+147 http fetch GET 200 https://registry.npmjs.org/postcss-selector-not/-/postcss-selector-not-4.0.0.tgz 88ms
+148 http fetch GET 200 https://registry.npmjs.org/postcss-selector-matches/-/postcss-selector-matches-4.0.0.tgz 88ms
+149 silly pacote range manifest for postcss-replace-overflow-wrap@^3.0.0 fetched in 440ms
+150 silly resolveWithNewModule postcss-replace-overflow-wrap@3.0.0 checking installable status
+151 silly pacote range manifest for postcss-selector-not@^4.0.0 fetched in 360ms
+152 silly resolveWithNewModule postcss-selector-not@4.0.0 checking installable status
+153 silly pacote range manifest for postcss-selector-matches@^4.0.0 fetched in 384ms
+154 silly resolveWithNewModule postcss-selector-matches@4.0.0 checking installable status
+155 http fetch GET 200 https://registry.npmjs.org/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-6.0.0.tgz 188ms
+156 silly pacote range manifest for postcss-pseudo-class-any-link@^6.0.0 fetched in 554ms
+157 silly resolveWithNewModule postcss-pseudo-class-any-link@6.0.0 checking installable status
+158 http fetch GET 200 https://registry.npmjs.org/normalize-range 78ms
+159 http fetch GET 200 https://registry.npmjs.org/colorette 88ms
+160 http fetch GET 200 https://registry.npmjs.org/num2fraction 95ms
+161 http fetch GET 200 https://registry.npmjs.org/colorette/-/colorette-1.2.1.tgz 89ms
+162 http fetch GET 200 https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz 99ms
+163 http fetch GET 200 https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz 85ms
+164 silly pacote range manifest for normalize-range@^0.1.2 fetched in 183ms
+165 silly resolveWithNewModule normalize-range@0.1.2 checking installable status
+166 silly pacote range manifest for colorette@^1.2.1 fetched in 184ms
+167 silly resolveWithNewModule colorette@1.2.1 checking installable status
+168 silly pacote range manifest for num2fraction@^1.2.2 fetched in 186ms
+169 silly resolveWithNewModule num2fraction@1.2.2 checking installable status
+170 http fetch GET 304 https://registry.npmjs.org/postcss-selector-parser 83ms (from cache)
+171 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-5.0.0.tgz 100ms
+172 silly pacote range manifest for postcss-selector-parser@^5.0.0-rc.4 fetched in 188ms
+173 silly resolveWithNewModule postcss-selector-parser@5.0.0 checking installable status
+174 http fetch GET 304 https://registry.npmjs.org/cssesc 84ms (from cache)
+175 http fetch GET 200 https://registry.npmjs.org/cssesc/-/cssesc-2.0.0.tgz 81ms
+176 silly pacote range manifest for cssesc@^2.0.0 fetched in 169ms
+177 silly resolveWithNewModule cssesc@2.0.0 checking installable status
+178 http fetch GET 200 https://registry.npmjs.org/postcss-values-parser 96ms
+179 http fetch GET 200 https://registry.npmjs.org/postcss-values-parser/-/postcss-values-parser-2.0.1.tgz 93ms
+180 silly pacote range manifest for postcss-values-parser@^2.0.0 fetched in 195ms
+181 silly resolveWithNewModule postcss-values-parser@2.0.1 checking installable status
+182 http fetch GET 200 https://registry.npmjs.org/flatten 78ms
+183 http fetch GET 200 https://registry.npmjs.org/flatten/-/flatten-1.0.3.tgz 88ms
+184 silly pacote range manifest for flatten@^1.0.2 fetched in 170ms
+185 silly resolveWithNewModule flatten@1.0.3 checking installable status
+186 http fetch GET 200 https://registry.npmjs.org/@csstools%2fconvert-colors 91ms
+187 http fetch GET 200 https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz 94ms
+188 silly pacote range manifest for @csstools/convert-colors@^1.4.0 fetched in 193ms
+189 silly resolveWithNewModule @csstools/convert-colors@1.4.0 checking installable status
+190 silly pacote range manifest for postcss-selector-parser@^5.0.0-rc.3 fetched in 1ms
+191 silly resolveWithNewModule postcss-selector-parser@5.0.0 checking installable status
+192 silly pacote range manifest for cssesc@^2.0.0 fetched in 1ms
+193 silly resolveWithNewModule cssesc@2.0.0 checking installable status
+194 silly pacote range manifest for postcss-selector-parser@^5.0.0-rc.3 fetched in 1ms
+195 silly resolveWithNewModule postcss-selector-parser@5.0.0 checking installable status
+196 silly pacote range manifest for cssesc@^2.0.0 fetched in 0ms
+197 silly resolveWithNewModule cssesc@2.0.0 checking installable status
+198 http fetch GET 200 https://registry.npmjs.org/lodash.template 85ms
+199 http fetch GET 200 https://registry.npmjs.org/lodash.template/-/lodash.template-4.5.0.tgz 88ms
+200 silly pacote range manifest for lodash.template@^4.5.0 fetched in 178ms
+201 silly resolveWithNewModule lodash.template@4.5.0 checking installable status
+202 http fetch GET 200 https://registry.npmjs.org/lodash.templatesettings 78ms
+203 http fetch GET 200 https://registry.npmjs.org/lodash._reinterpolate 82ms
+204 http fetch GET 200 https://registry.npmjs.org/lodash.templatesettings/-/lodash.templatesettings-4.2.0.tgz 81ms
+205 silly pacote range manifest for lodash.templatesettings@^4.0.0 fetched in 165ms
+206 silly resolveWithNewModule lodash.templatesettings@4.2.0 checking installable status
+207 http fetch GET 200 https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz 96ms
+208 silly pacote range manifest for lodash._reinterpolate@^3.0.0 fetched in 184ms
+209 silly resolveWithNewModule lodash._reinterpolate@3.0.0 checking installable status
+210 silly pacote range manifest for postcss-selector-parser@^5.0.0-rc.3 fetched in 1ms
+211 silly resolveWithNewModule postcss-selector-parser@5.0.0 checking installable status
+212 silly pacote range manifest for cssesc@^2.0.0 fetched in 1ms
+213 silly resolveWithNewModule cssesc@2.0.0 checking installable status
+214 http fetch GET 200 https://registry.npmjs.org/color 98ms
+215 http fetch GET 200 https://registry.npmjs.org/bytes 108ms
+216 http fetch GET 200 https://registry.npmjs.org/detective 118ms
+217 http fetch GET 200 https://registry.npmjs.org/html-tags 121ms
+218 http fetch GET 200 https://registry.npmjs.org/node-emoji 135ms
+219 http fetch GET 200 https://registry.npmjs.org/fs-extra 145ms
+220 http fetch GET 200 https://registry.npmjs.org/normalize.css 154ms
+221 http fetch GET 200 https://registry.npmjs.org/object-hash 158ms
+222 http fetch GET 200 https://registry.npmjs.org/@fullhuman%2fpostcss-purgecss 163ms
+223 http fetch GET 304 https://registry.npmjs.org/chalk 164ms (from cache)
+224 http fetch GET 200 https://registry.npmjs.org/color/-/color-3.1.2.tgz 134ms
+225 silly pacote range manifest for color@^3.1.2 fetched in 238ms
+226 silly resolveWithNewModule color@3.1.2 checking installable status
+227 http fetch GET 200 https://registry.npmjs.org/bytes/-/bytes-3.1.0.tgz 140ms
+228 silly pacote range manifest for bytes@^3.0.0 fetched in 255ms
+229 silly resolveWithNewModule bytes@3.1.0 checking installable status
+230 http fetch GET 200 https://registry.npmjs.org/object-hash/-/object-hash-2.0.3.tgz 97ms
+231 silly pacote range manifest for object-hash@^2.0.3 fetched in 270ms
+232 silly resolveWithNewModule object-hash@2.0.3 checking installable status
+233 http fetch GET 200 https://registry.npmjs.org/detective/-/detective-5.2.0.tgz 156ms
+234 silly pacote range manifest for detective@^5.2.0 fetched in 280ms
+235 silly resolveWithNewModule detective@5.2.0 checking installable status
+236 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-4.1.0.tgz 120ms
+237 silly pacote range manifest for chalk@^3.0.0 || ^4.0.0 fetched in 289ms
+238 silly resolveWithNewModule chalk@4.1.0 checking installable status
+239 http fetch GET 200 https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz 162ms
+240 http fetch GET 200 https://registry.npmjs.org/node-emoji/-/node-emoji-1.10.0.tgz 174ms
+241 http fetch GET 200 https://registry.npmjs.org/normalize.css/-/normalize.css-8.0.1.tgz 155ms
+242 http fetch GET 200 https://registry.npmjs.org/html-tags/-/html-tags-3.1.0.tgz 191ms
+243 silly pacote range manifest for fs-extra@^8.0.0 fetched in 316ms
+244 silly resolveWithNewModule fs-extra@8.1.0 checking installable status
+245 silly pacote range manifest for normalize.css@^8.0.1 fetched in 317ms
+246 silly resolveWithNewModule normalize.css@8.0.1 checking installable status
+247 silly pacote range manifest for node-emoji@^1.8.1 fetched in 318ms
+248 silly resolveWithNewModule node-emoji@1.10.0 checking installable status
+249 silly pacote range manifest for html-tags@^3.1.0 fetched in 320ms
+250 silly resolveWithNewModule html-tags@3.1.0 checking installable status
+251 http fetch GET 200 https://registry.npmjs.org/postcss-functions 84ms
+252 http fetch GET 200 https://registry.npmjs.org/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.3.0.tgz 172ms
+253 silly pacote range manifest for @fullhuman/postcss-purgecss@^2.1.2 fetched in 340ms
+254 silly resolveWithNewModule @fullhuman/postcss-purgecss@2.3.0 checking installable status
+255 http fetch GET 200 https://registry.npmjs.org/postcss-nested 110ms
+256 http fetch GET 200 https://registry.npmjs.org/pretty-hrtime 121ms
+257 http fetch GET 200 https://registry.npmjs.org/reduce-css-calc 114ms
+258 http fetch GET 200 https://registry.npmjs.org/postcss-functions/-/postcss-functions-3.0.0.tgz 99ms
+259 silly pacote range manifest for postcss-functions@^3.0.0 fetched in 188ms
+260 silly resolveWithNewModule postcss-functions@3.0.0 checking installable status
+261 http fetch GET 200 https://registry.npmjs.org/postcss-js 187ms
+262 http fetch GET 200 https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz 354ms
+263 silly pacote range manifest for pretty-hrtime@^1.0.3 fetched in 480ms
+264 silly resolveWithNewModule pretty-hrtime@1.0.3 checking installable status
+265 http fetch GET 200 https://registry.npmjs.org/postcss-nested/-/postcss-nested-4.2.3.tgz 383ms
+266 silly pacote range manifest for postcss-nested@^4.1.1 fetched in 502ms
+267 silly resolveWithNewModule postcss-nested@4.2.3 checking installable status
+268 http fetch GET 200 https://registry.npmjs.org/postcss-js/-/postcss-js-2.0.3.tgz 334ms
+269 silly pacote range manifest for postcss-js@^2.0.0 fetched in 528ms
+270 silly resolveWithNewModule postcss-js@2.0.3 checking installable status
+271 http fetch GET 200 https://registry.npmjs.org/reduce-css-calc/-/reduce-css-calc-2.1.7.tgz 380ms
+272 silly pacote range manifest for reduce-css-calc@^2.1.6 fetched in 499ms
+273 silly resolveWithNewModule reduce-css-calc@2.1.7 checking installable status
+274 http fetch GET 200 https://registry.npmjs.org/purgecss 139ms
+275 http fetch GET 200 https://registry.npmjs.org/purgecss/-/purgecss-2.3.0.tgz 85ms
+276 silly pacote range manifest for purgecss@^2.3.0 fetched in 231ms
+277 silly resolveWithNewModule purgecss@2.3.0 checking installable status
+278 http fetch GET 304 https://registry.npmjs.org/commander 96ms (from cache)
+279 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-5.1.0.tgz 105ms
+280 silly pacote range manifest for commander@^5.0.0 fetched in 208ms
+281 silly resolveWithNewModule commander@5.1.0 checking installable status
+282 http fetch GET 304 https://registry.npmjs.org/ansi-styles 81ms (from cache)
+283 silly pacote range manifest for ansi-styles@^4.1.0 fetched in 83ms
+284 silly resolveWithNewModule ansi-styles@4.2.1 checking installable status
+285 http fetch GET 304 https://registry.npmjs.org/supports-color 89ms (from cache)
+286 silly pacote range manifest for supports-color@^7.1.0 fetched in 90ms
+287 silly resolveWithNewModule supports-color@7.2.0 checking installable status
+288 http fetch GET 304 https://registry.npmjs.org/color-convert 75ms (from cache)
+289 silly pacote range manifest for color-convert@^2.0.1 fetched in 76ms
+290 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+291 http fetch GET 304 https://registry.npmjs.org/color-name 80ms (from cache)
+292 silly pacote range manifest for color-name@~1.1.4 fetched in 81ms
+293 silly resolveWithNewModule color-name@1.1.4 checking installable status
+294 http fetch GET 304 https://registry.npmjs.org/has-flag 77ms (from cache)
+295 silly pacote range manifest for has-flag@^4.0.0 fetched in 78ms
+296 silly resolveWithNewModule has-flag@4.0.0 checking installable status
+297 http fetch GET 200 https://registry.npmjs.org/color-string 189ms
+298 http fetch GET 200 https://registry.npmjs.org/color-string/-/color-string-1.5.3.tgz 99ms
+299 silly pacote range manifest for color-string@^1.5.2 fetched in 293ms
+300 silly resolveWithNewModule color-string@1.5.3 checking installable status
+301 http fetch GET 200 https://registry.npmjs.org/simple-swizzle 86ms
+302 http fetch GET 200 https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz 76ms
+303 silly pacote range manifest for simple-swizzle@^0.2.2 fetched in 168ms
+304 silly resolveWithNewModule simple-swizzle@0.2.2 checking installable status
+305 http fetch GET 200 https://registry.npmjs.org/is-arrayish 86ms
+306 http fetch GET 200 https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz 89ms
+307 silly pacote range manifest for is-arrayish@^0.3.1 fetched in 182ms
+308 silly resolveWithNewModule is-arrayish@0.3.2 checking installable status
+309 http fetch GET 200 https://registry.npmjs.org/defined 76ms
+310 http fetch GET 200 https://registry.npmjs.org/defined/-/defined-1.0.0.tgz 75ms
+311 silly pacote range manifest for defined@^1.0.0 fetched in 156ms
+312 silly resolveWithNewModule defined@1.0.0 checking installable status
+313 http fetch GET 200 https://registry.npmjs.org/acorn-node 204ms
+314 http fetch GET 200 https://registry.npmjs.org/acorn-node/-/acorn-node-1.8.2.tgz 82ms
+315 silly pacote range manifest for acorn-node@^1.6.1 fetched in 292ms
+316 silly resolveWithNewModule acorn-node@1.8.2 checking installable status
+317 http fetch GET 200 https://registry.npmjs.org/acorn-walk 80ms
+318 http fetch GET 304 https://registry.npmjs.org/acorn 86ms (from cache)
+319 http fetch GET 200 https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.2.0.tgz 86ms
+320 silly pacote range manifest for acorn-walk@^7.0.0 fetched in 171ms
+321 silly resolveWithNewModule acorn-walk@7.2.0 checking installable status
+322 timing npm Completed in 10276ms
+323 error cb() never called!
+324 error This is an error with npm itself. Please report this error at:
+325 error <https://npm.community>
