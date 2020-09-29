@@ -25,5 +25,21 @@
 }
 
 .navbar {
-    background-color: aqua;
+    font-family: "Inter";
+}
+
+@font-face {
+    font-family: 'DIN 2014';
+    src: url("../DIN2014-Regular.woff");
+    src: local('DIN 2014 Regular'), local('DIN2014-Regular'),
+        url("../DIN2014-Regular.woff") format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: "Inter";
+    src: url("../Inter.ttf") format("truetype");
 }
